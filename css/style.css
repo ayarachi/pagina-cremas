@@ -1,0 +1,26 @@
+.imagen-central {
+  border: 0vmax;
+  text-align: center;
+}
+.titulo {
+  background-color: rgb(255, 228, 196);
+  font-family: cursive;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(247, 196, 134);
+  width: 400px;
+  height: 500px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: cursive;
+}
+.imagen-card {
+  text-align: center;
+}
+.titulo-crema {
+  text-align: center;
+}
