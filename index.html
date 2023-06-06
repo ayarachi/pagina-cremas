@@ -9,12 +9,13 @@
     <title></title>
   </head>
   <body>
-    <header id="heder">
-      <nav>
+    <header>
+      <nav class="list">
         <ul>
           <li><a href="./pages/sobre-nosotros.html"> Sobre Nosotros</a></li>
           <li><a href="./pages/kits.html">kits</a></li>
           <li><a href="./pages/rutinas.html">Rutinas</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -22,10 +23,16 @@
       <section class="titulo">
         <h1>IKIGAY - SALUD Y BELLEZA</h1>
       </section>
-      <section>
+      <section class="parrafos">
         <p>
           Encontra los mejores productos disponibles para tu rutina facial
           diaria
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
+          doloremque itaque id neque architecto exercitationem, laborum
+          asperiores sint et, aliquam mollitia quisquam. Maxime ipsa eos magnam!
+          Harum aut necessitatibus hic!
         </p>
       </section>
       <div class="imagen-central">
@@ -39,71 +46,86 @@
         <div class="subtitulo">
           <h2>Nuestros productos</h2>
         </div>
-        <div class="card">
-          <div class="titulo-crema">Crema hidratante</div>
 
-          <div class="imagen-card">
-            <img
-              src="https://media.vogue.es/photos/5ced60e48f632923e6ae7513/master/w_2117,h_1394,c_limit/APEROS%20Nourishing%20Cream.jpg"
-              width="250"
-              height="200"
-            />
+        <div class="productContainer">
+          <div class="card">
+            <h4 class="titulo-card">Crema hidratante</h4>
+
+            <div class="imagen-card">
+              <img
+                src="https://media.vogue.es/photos/5ced60e48f632923e6ae7513/master/w_2117,h_1394,c_limit/APEROS%20Nourishing%20Cream.jpg"
+                width="250"
+                height="200"
+              />
+            </div>
+
+            <p class="descripcion">
+              Crema de Aperos, hidrata en profundidad e ilumina el rostro según
+              la aplicas, con una rápida absorción para que no pierdas ni un
+              segundo en tu ajetreada vida. Crema hidratante, de Aperos.
+            </p>
+            <p>Precio: $ 6000</p>
           </div>
 
-          <div class="descripcion">
-            Nourishing Cream de Aperos, hidrata en profundidad e ilumina el
-            rostro según la aplicas, con una rápida absorción para que no
-            pierdas ni un segundo en tu ajetreada vida. Crema hidratante, de
-            Aperos.
-          </div>
-          <div>Precio: $ 4000</div>
-        </div>
-      </section>
-      <section>
-        <div class="card">
-          <div class="titulo-crema">Serum Facial</div>
+          <div class="card">
+            <h4 class="titulo-crema">Serum Facial</h4>
 
-          <div class="imagen-card">
-            <img
-              src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/453470/serum-anti-idade-la-roche-posay-salicyli-c10-13ml.jpg?v=637673305505600000"
-              width="250"
-              height="200"
-            />
+            <div class="imagen-card">
+              <img
+                src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/453470/serum-anti-idade-la-roche-posay-salicyli-c10-13ml.jpg?v=637673305505600000"
+                width="250"
+                height="200"
+              />
+            </div>
+
+            <p class="descripcion">
+              Sérum La Roche Posay es un nuevo producto. Con alta concentracion
+              de Vitamina con propiedades como antioxidante, antirrugas e
+              renovacion.
+            </p>
+            <p>Precio: $ 5000</p>
           </div>
 
-          <div class="descripcion">
-            Sérum La Roche Posay es un nuevo produecto. Con alta concentracion
-            de Vitamina con propiedades como antioxidante, antirrugas e
-            renovacion.
+          <div class="card">
+            <h4 class="titulo-crema">Crema con retinol</h4>
+
+            <div class="imagen-card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw9Jm9YgiTgm8R4tilDVwC-8fafJvxf9E5xQ&usqp=CAU"
+                width="250"
+                height="200"
+              />
+            </div>
+
+            <p class="descripcion">
+              Su fórmula exclusiva, clínicamente probada, está compuesta por
+              retinol puro, extracto de mirto y ácido hialurónico para una
+              eficacia 5 veces superior y con menos irritación
+            </p>
+            <p>Precio: $ 4000</p>
           </div>
-          <div>Precio: $ 5000</div>
+
+          <div class="card">
+            <h4 class="titulo-crema">Crema con retinol</h4>
+
+            <div class="imagen-card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw9Jm9YgiTgm8R4tilDVwC-8fafJvxf9E5xQ&usqp=CAU"
+                width="250"
+                height="200"
+              />
+            </div>
+
+            <p class="descripcion">
+              Su fórmula exclusiva, clínicamente probada, está compuesta por
+              retinol puro, extracto de mirto y ácido hialurónico para una
+              eficacia 5 veces superior y con menos irritación
+            </p>
+            <p>Precio: $ 4000</p>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <h3>Contactanos</h3>
-
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/QkmTKV3PSGPdiEfT8?coh=178573&entry=tt"
-              target="_blank"
-              >Ir a ubicación</a
-            >
-          </li>
-
-          <li>
-            <a
-              href="https://wa.me/5491155159835?text=hola, en que puedo ayudarte"
-              target="_blank "
-              >Escribinos por Whatsapp</a
-            >
-          </li>
-
-          <li><a href="#heder">Ir a inicio </a></li>
-        </ul>
-      </div>
-    </footer>
+    <footer></footer>
   </body>
 </html>
